@@ -14,15 +14,10 @@
                 <a href="#" class="logo">Pod<span>Master</span></a>
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#products">Products</a></li>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#order" class="cart-icon">Order Now</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li>
-                        <a href="#cart" class="cart-icon">
-                            Cart
-                            <span class="cart-count">0</span>
-                        </a>
-                    </li>
                 </ul>
             </nav>
         </div>
@@ -38,11 +33,11 @@
     </section>
 
     <!-- Features Section -->
-    <section class="features">
+    <section class="features" id="about">
         <div class="container">
             <div class="section-title">
-                <h2>Why Choose Our Pods?</h2>
-                <p>We offer the best pod solutions with unmatched quality and customer satisfaction.</p>
+                <h2>Why Choose Us?</h2>
+                <p>We offer the best pod solutions with unmatched quality, price and customer satisfaction.</p>
             </div>
             <div class="features-grid">
                 <div class="feature-card">
@@ -80,7 +75,7 @@
                         <h3 class="product-title">Classic Pod - 3 Pack</h3>
                         <p>Our original refillable pods with enhanced longevity and flavor retention.</p>
                         <div class="product-price">$24.99</div>
-                        <button class="add-to-cart">Add to Cart</button>
+                        <a href="#order"><button class="add-to-cart">Place Order</button></a>
                     </div>
                 </div>
                 <div class="product-card">
@@ -91,7 +86,7 @@
                         <h3 class="product-title">Premium Pod - 2 Pack</h3>
                         <p>Advanced design with improved airflow and compatibility with multiple devices.</p>
                         <div class="product-price">$29.99</div>
-                        <button class="add-to-cart">Add to Cart</button>
+                        <a href="#order"><button class="add-to-cart">Place Order</button></a>
                     </div>
                 </div>
                 <div class="product-card">
@@ -102,7 +97,7 @@
                         <h3 class="product-title">Ultra Pod - Single</h3>
                         <p>Our flagship pod with maximum capacity and extended lifespan.</p>
                         <div class="product-price">$19.99</div>
-                        <button class="add-to-cart">Add to Cart</button>
+                        <a href="#order"><button class="add-to-cart">Place Order</button></a>
                     </div>
                 </div>
                 <div class="product-card">
@@ -113,7 +108,7 @@
                         <h3 class="product-title">Eco Pod - 4 Pack</h3>
                         <p>Environmentally friendly pods made from sustainable materials.</p>
                         <div class="product-price">$34.99</div>
-                        <button class="add-to-cart">Add to Cart</button>
+                        <a href="#order"><button class="add-to-cart">Place Order</button></a>
                     </div>
                 </div>
             </div>
@@ -163,13 +158,13 @@
     </section>
 
     <!-- Order via WhatsApp Section -->
-    <section class="newsletter">
+    <section class="order" id="order">
         <div class="container">
             <h2>Order via WhatsApp</h2>
             <p>Place your pod order directly through WhatsApp for faster service and real-time updates on your delivery.</p>
             <div class="whatsapp-order">
                 <div class="phone-number" id="whatsappNumber">+1 (555) 123-4567</div>
-                <button class="newsletter-button" onclick="copyPhoneNumber()">Copy Number</button>
+                <button class="order-button" onclick="copyPhoneNumber()">Copy Number</button>
             </div>
             <p class="whatsapp-instructions">Simply copy our number, save it to your contacts, and message us your order details!</p>
         </div>
@@ -200,7 +195,7 @@
                         <li><a href="#home">Home</a></li>
                         <li><a href="#products">Products</a></li>
                         <li><a href="#about">About Us</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#order">Order Now</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
@@ -208,7 +203,7 @@
                     <ul>
                         <li><a href="#">FAQ</a></li>
                         <li><a href="#">Shipping & Returns</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
+                        <!-- <li><a href="#">Privacy Policy</a></li> -->
                         <li><a href="#">Terms & Conditions</a></li>
                     </ul>
                 </div>

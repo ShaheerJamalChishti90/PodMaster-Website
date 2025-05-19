@@ -293,19 +293,19 @@ header {
 }
 
 /* WhatsApp Order Section */
-.newsletter {
-    padding: 60px 0;
+.order {
+    padding: 100px 0;
     background-color: #4CAF50;
     color: white;
     text-align: center;
 }
 
-.newsletter h2 {
+.order h2 {
     font-size: 32px;
     margin-bottom: 20px;
 }
 
-.newsletter p {
+.order p {
     max-width: 600px;
     margin: 0 auto 30px;
     font-size: 18px;
@@ -329,7 +329,7 @@ header {
     color: #333;
 }
 
-.newsletter-button {
+.order-button {
     padding: 15px 30px;
     background-color: #25D366;
     /* WhatsApp green */
@@ -341,7 +341,7 @@ header {
     font-weight: bold;
 }
 
-.newsletter-button:hover {
+.order-button:hover {
     background-color: #128C7E;
     /* Darker WhatsApp green */
 }
@@ -446,7 +446,7 @@ footer {
         padding: 12px;
     }
 
-    .newsletter-button {
+    .order-button {
         width: 80%;
         border-radius: 30px;
         padding: 12px;
